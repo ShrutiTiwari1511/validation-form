@@ -7,6 +7,10 @@
     background: #fff;
     padding-bottom: 30px;
     width:600px;
+    height: 85vh;
+    border-radius: 10px;
+  
+    
     
 }
 .header{
@@ -24,15 +28,9 @@
     font-weight:700;
 }
 
-.underline{
-    width:101px;
-    height:4px;
-    background: #3c009d;
-    border-radius: 9px;
- 
-}
+
 .inputs{
-    margin-top:45px;
+    margin-top:20px;
     flex-direction: column;
     display: flex;
     gap:45px;
@@ -107,4 +105,15 @@ span{
  position: relative;
 
  top:49px;
+}
+
+.logo{
+    height: 140px;
+    width: 150px;
+    background: rgb(183, 189, 189);
+    border-radius: 50%;
+}
+.logo img{
+    position: relative;
+    top:-20px;
 }
